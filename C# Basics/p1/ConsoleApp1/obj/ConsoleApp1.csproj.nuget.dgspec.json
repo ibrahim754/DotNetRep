@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\C#\\C#_Projects\\Study\\C# Basics\\p1\\ConsoleApp1\\ConsoleApp1.csproj": {}
+    "F:\\C#\\C#_Projects\\C# Basics\\p1\\ConsoleApp1\\ConsoleApp1.csproj": {}
   },
   "projects": {
-    "F:\\C#\\C#_Projects\\Study\\C# Basics\\p1\\ConsoleApp1\\ConsoleApp1.csproj": {
+    "F:\\C#\\C#_Projects\\C# Basics\\p1\\ConsoleApp1\\ConsoleApp1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\C#\\C#_Projects\\Study\\C# Basics\\p1\\ConsoleApp1\\ConsoleApp1.csproj",
+        "projectUniqueName": "F:\\C#\\C#_Projects\\C# Basics\\p1\\ConsoleApp1\\ConsoleApp1.csproj",
         "projectName": "ConsoleApp1",
-        "projectPath": "F:\\C#\\C#_Projects\\Study\\C# Basics\\p1\\ConsoleApp1\\ConsoleApp1.csproj",
+        "projectPath": "F:\\C#\\C#_Projects\\C# Basics\\p1\\ConsoleApp1\\ConsoleApp1.csproj",
         "packagesPath": "C:\\Users\\ibrah\\.nuget\\packages\\",
-        "outputPath": "F:\\C#\\C#_Projects\\Study\\C# Basics\\p1\\ConsoleApp1\\obj\\",
+        "outputPath": "F:\\C#\\C#_Projects\\C# Basics\\p1\\ConsoleApp1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ibrah\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "F:\\C#\\C#_Projects\\Study\\C# Basics\\p1\\ConsoleApp2\\ConsoleApp2.csproj": {
-                "projectPath": "F:\\C#\\C#_Projects\\Study\\C# Basics\\p1\\ConsoleApp2\\ConsoleApp2.csproj"
+              "F:\\C#\\C#_Projects\\C# Basics\\p1\\ConsoleApp2\\ConsoleApp2.csproj": {
+                "projectPath": "F:\\C#\\C#_Projects\\C# Basics\\p1\\ConsoleApp2\\ConsoleApp2.csproj"
               }
             }
           }
@@ -63,14 +63,14 @@
         }
       }
     },
-    "F:\\C#\\C#_Projects\\Study\\C# Basics\\p1\\ConsoleApp2\\ConsoleApp2.csproj": {
+    "F:\\C#\\C#_Projects\\C# Basics\\p1\\ConsoleApp2\\ConsoleApp2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\C#\\C#_Projects\\Study\\C# Basics\\p1\\ConsoleApp2\\ConsoleApp2.csproj",
+        "projectUniqueName": "F:\\C#\\C#_Projects\\C# Basics\\p1\\ConsoleApp2\\ConsoleApp2.csproj",
         "projectName": "ConsoleApp2",
-        "projectPath": "F:\\C#\\C#_Projects\\Study\\C# Basics\\p1\\ConsoleApp2\\ConsoleApp2.csproj",
+        "projectPath": "F:\\C#\\C#_Projects\\C# Basics\\p1\\ConsoleApp2\\ConsoleApp2.csproj",
         "packagesPath": "C:\\Users\\ibrah\\.nuget\\packages\\",
-        "outputPath": "F:\\C#\\C#_Projects\\Study\\C# Basics\\p1\\ConsoleApp2\\obj\\",
+        "outputPath": "F:\\C#\\C#_Projects\\C# Basics\\p1\\ConsoleApp2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ibrah\\AppData\\Roaming\\NuGet\\NuGet.Config",

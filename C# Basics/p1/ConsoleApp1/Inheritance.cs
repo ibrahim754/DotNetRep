@@ -9,6 +9,16 @@ namespace ConsoleApp1
     /* 
      * Any class can only Inherit one class, but implement mutliple interfaces
      */
+    /*
+     * public: The type or member can be accessed by any other code in the same assembly or another assembly that references it.
+     * protected: The type or member can be accessed only by code in the same class, or in a class that is derived from that class.
+     * internal: The type or member can be accessed by any code in the same assembly, but not from another assembly.
+     * protected internal: The type or member can be accessed by any code in the assembly in which it’s declared, or from within a derived class in another assembly.
+     * private: The type or member can be accessed only by code in the same class or struct.
+     * private protected: The type or member can be accessed by types derived from the class that are declared within its containing assembly.
+     * file: The declared type is only visible in the current source file. File scoped types are generally used for source generators.
+
+     */
 
     /*
      * Upcasting -> Create Base class ref from Sub class ref, we see here only fields of BaseClass
@@ -29,6 +39,8 @@ namespace ConsoleApp1
     /*
      * Abstract Class is the class i can not have an object from it,
      * Sealed Class  is the class that can not be inherited. 
+     * static class : A static class cannot be instantiated or inherited from. It can only contain static members and is implicitly sealed.
+     * partial:allows the definition of a class to be split into multiple source files. The compiler combines all the partial definitions into a single class.
      */
 
     /*
