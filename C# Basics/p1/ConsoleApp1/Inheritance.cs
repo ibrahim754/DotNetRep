@@ -8,6 +8,8 @@ namespace ConsoleApp1
 {
     /* 
      * Any class can only Inherit one class, but implement mutliple interfaces
+     * when you have a paramtrized constructor and no paramtrizedless constructor, in subclass you have to call explicity one of the 
+     * constructors in the base class;
      */
     /*
      * public: The type or member can be accessed by any other code in the same assembly or another assembly that references it.

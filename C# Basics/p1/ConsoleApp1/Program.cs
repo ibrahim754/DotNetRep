@@ -5,14 +5,31 @@ using ConsoleApp2;
  
 namespace ConsolApp1 // Note: actual namespace depends on the project name.
 {
+    public delegate bool sumDel(int x, int y);
     internal class Program
     {
         public static void Main(string[] args)
         {
-            Manager m = new Manager();
+            int[] a = new int[] { 1, 2, 3, 4, -5, 6,-7, -8, -9 };
+            int[] b = new int[] { 1, 2, 3, -4, 5, 6, 7, 8, 9 } ;
+            var ret = testDel(a, b, (x, y) => x > 0 && y > 0) ;
+            Console.WriteLine(ret);
 
-         }
-      
+        }
+        public static int testDel(int []x,int []y,sumDel del)
+        {
+            int sum = 0;
+            for(int i = 0; i < x.Length; i++)
+            {
+                if (del(x[i], y[i]))
+                {
+                    sum += x[i] + y[i];
+                }
+                 
+            }
+            return sum;
+
+        }
 
         public void EventTest()
         {
